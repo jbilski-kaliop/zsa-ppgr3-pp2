@@ -1,4 +1,4 @@
-import { max, isPrime } from "./lib/math";
+import App from "./app";
 
-console.log(max(5, 10, 15));
-console.log(isPrime(13));
+const app = new App();
+app.run();

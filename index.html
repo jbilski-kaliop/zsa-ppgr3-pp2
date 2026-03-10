@@ -7,7 +7,31 @@
     <title>hello-ts</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <form>
+        <ul>
+          <li>
+            <label for="val1">Value 1: </label>
+            <input type="text" name="val1" id="val1" />
+          </li>
+          <li>
+            <button type="button" id="actionIsEven">
+              Is even?
+            </button>
+          </li>
+          <li>
+            <button type="button" id="actionIsOdd">
+              Is odd?
+            </button>
+          </li>
+          <li>
+            <button type="button" id="actionIsPrime">
+              Is prime?
+            </button>
+          </li>
+        </ul>
+      </form>
+    </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
